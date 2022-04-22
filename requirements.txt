@@ -3,4 +3,3 @@ Pillow
 plotly
 prophet
 streamlit
-
