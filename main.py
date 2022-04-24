@@ -64,15 +64,15 @@ if uploaded_file:
         st.write(m.plot_components(forCast, weekly_start=1, yearly_start=2022))
 
 
-    def convert_df(for_cast):
+        def convert_df(for_cast):
 
-        return for_cast.to_csv().encode('utf-8')
+            return for_cast.to_csv().encode('utf-8')
 
 
-    csv = convert_df(forCast)
-    st.download_button(
-        label="Download predictions file",
-        data=csv,
-        file_name='predictions_file.csv',
-        mime='text/csv'
-    )
+        csv = convert_df(forCast)
+        st.download_button(
+            label="Download predictions file",
+            data=csv,
+            file_name='predictions_file.csv',
+            mime='text/csv'
+        )
