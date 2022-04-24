@@ -69,7 +69,7 @@ if uploaded_file:
         return for_cast.to_csv().encode('utf-8')
 
 
-    csv = convert_df(df)
+    csv = convert_df(forCast)
     st.download_button(
         label="Download predictions file",
         data=csv,
