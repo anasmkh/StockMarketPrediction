@@ -18,7 +18,7 @@ st.sidebar.title('Upload your data file ')
 uploaded_file = st.sidebar.file_uploader('')
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
-    st1, st2, st3 = st.columns([1, 0.2, 0.5])
+    # st1, st2, st3 = st.columns([1, 0.2, 0.5])
     period = int(st.sidebar.slider('Enter the prediction period /per day', 1, 60))
     ####################################################################
     st.sidebar.title("Process Current Data")
@@ -77,5 +77,5 @@ if uploaded_file:
             mime='text/csv'
         )
 else:
-    st.header('Upload Your Data File here')
-    st.plotly_chart('')
+    st.subheader('easy and simple prediction tool for stock market')
+
