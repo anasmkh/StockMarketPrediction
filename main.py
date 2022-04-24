@@ -78,4 +78,4 @@ if uploaded_file:
         )
 else:
     st.header('Upload Your Data File here')
-    #uploaded_file=st.file_uploader('')
+    st.plotly_chart('')
