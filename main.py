@@ -77,5 +77,5 @@ if uploaded_file:
             mime='text/csv'
         )
 else:
-    st.image('stock.jpg',caption='Start Making prophet with us', width=200, use_column_width='auto')
+    st.image('stock.jpg',caption='Start Making prophet with us', width=200)
 
