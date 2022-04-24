@@ -78,4 +78,6 @@ if uploaded_file:
         )
 else:
     st.subheader('easy and simple prediction tool for stock market')
+    st.image('arraow.png')
+
 
