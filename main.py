@@ -78,4 +78,4 @@ if uploaded_file:
         )
 else:
     st.header('Upload Your Data File here')
-    st.file_uploader('')
+    uploaded_file=st.file_uploader('')
