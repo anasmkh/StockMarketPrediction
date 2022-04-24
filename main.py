@@ -76,3 +76,6 @@ if uploaded_file:
             file_name='predictions_file.csv',
             mime='text/csv'
         )
+else:
+    st.image('stock.jpg')
+    st.title('Start making money now')
