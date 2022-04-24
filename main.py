@@ -77,5 +77,5 @@ if uploaded_file:
             mime='text/csv'
         )
 else:
-    st.image('stock.jpg',caption='Start Making prophet with us', width=200)
-
+    st.header('Upload Your Data File here')
+    st.file_uploader('')
